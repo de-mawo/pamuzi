@@ -1,5 +1,5 @@
 import { HiOutlineSquares2X2, HiOutlineUserGroup , HiOutlineInboxArrowDown, HiOutlineCog6Tooth, HiOutlineShoppingBag, HiOutlineTruck, HiOutlineClipboard, HiOutlineIdentification} from "react-icons/hi2";
-import { Chef, Order } from "./svgs";
+
 
 export const AdminRoutes = [
     { title: "Dashboard", url: "/dashboard/admin", icon: <HiOutlineSquares2X2 className="h-6 w-6 mr-4 shrink-0"/> },
