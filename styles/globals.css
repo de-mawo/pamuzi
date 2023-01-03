@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .primary-btn{
+        @apply  font-semibold bg-neon-carrot-500 hover:bg-neon-carrot-600 text-white px-4 lg:px-8 py-2 lg:py-2 rounded-full
+    }
+
+    .secondary-btn{
+        @apply px-4 lg:px-8 py-2 font-semibold  bg-neon-carrot-100 hover:bg-neon-carrot-200 border border-neon-carrot-500 focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 rounded-full
+    }
+}
