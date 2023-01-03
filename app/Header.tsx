@@ -1,8 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import ToogleDarkLight from "./ToogleDarkLight";
+import ToogleDarkLight from "./ToggleDarkLight";
 import Image from "next/image";
-import { HiMapPin } from "react-icons/hi2";
 import HeaderBottomSection from "./HeaderBottomSection";
 
 const Header = () => {
@@ -17,7 +16,7 @@ const Header = () => {
           width={50}
           height={50}
           alt="logo"
-          className="border border-neon-carrot-600 rounded-full"
+          className="border border-neon-carrot-600 bg-neon-carrot-100 rounded-full"
         />
 
         <div className="hidden md:flex items-center justify-end space-x-4">
@@ -40,7 +39,7 @@ const Header = () => {
 
       <section className="text-center lg:my-20">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-neon-carrot-900 md:text-5xl lg:text-6xl ">
-          Pamuzi is a great achievement
+          Pamuzi is your domain
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           ... a Southern African Experience

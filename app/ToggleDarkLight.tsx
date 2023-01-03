@@ -5,7 +5,7 @@ import {useTheme} from 'next-themes'
 import { useEffect, useState } from 'react';
 import { HiOutlineSun, HiOutlineMoon } from "react-icons/hi2";
 
-const ToogleDarkLight = () => {
+const ToggleDarkLight = () => {
 
     const [mounted, setMounted] = useState(false)
     const {systemTheme, theme , setTheme} = useTheme();
@@ -37,4 +37,4 @@ const ToogleDarkLight = () => {
   )
 }
 
-export default ToogleDarkLight
+export default ToggleDarkLight

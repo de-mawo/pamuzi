@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+    font-family: "Fira Sans", sans-serif;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,5 +17,13 @@
 
     .secondary-btn{
         @apply px-4 lg:px-8 py-2 font-semibold  bg-neon-carrot-100 hover:bg-neon-carrot-200 border border-neon-carrot-500 focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 rounded-full
+    }
+    .dash_container{
+        @apply relative pr-4 pl-[5.25rem] min-h-[62.5rem] 
+    }
+
+    
+    .dash_sidebar {
+        @apply fixed top-0 left-0 w-16 h-screen bg-neon-carrot-900 transition-all z-50
     }
 }
